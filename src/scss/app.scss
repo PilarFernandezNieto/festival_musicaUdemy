@@ -1,0 +1,8 @@
+// Forma antigua de recuperar archivos: usando @import
+/*@import "base/variables";
+@import "contenido/contenido";*/
+
+// Forma nueva: @use aquí y @forward en los archivos scss
+@use "base";
+@use "layout";
+
